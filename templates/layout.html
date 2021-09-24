@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		{% if title %}
+<html lang="en">
+<head>
+	{% if title %}
 		<title>{{ title }} page</title>
-		{% else %}
+	{% else %}
 		<title>Home page</title>
-		{% endif %}
-	</head>
-	<body>
-		{% block content %}
-
-		{% endblock content%}
-	</body>
+	{% endif %}
+</head>
+<body>
+	{% block content %}
+	{% endblock content%}
+</body>
 </html>
