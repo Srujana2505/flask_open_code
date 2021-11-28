@@ -1,1 +1,1 @@
-# flask_open_code
+# flask application
